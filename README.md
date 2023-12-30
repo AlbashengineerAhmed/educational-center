@@ -1,1 +1,1 @@
-# educational-center
+# Educational Center
