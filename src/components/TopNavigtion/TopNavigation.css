@@ -1,0 +1,56 @@
+.navTitle{
+     font-family: 'Montserrat',sans-serif;
+     color: #ffffff !important;
+     font-weight: 700;
+     font-size: 25px;
+}
+.navTitleScroll{
+     font-family: 'Montserrat',sans-serif;
+     color: #31abcd !important;
+     font-weight: 700;
+     font-size: 25px;
+}
+
+.navbar-toggler{
+     background-color: #ffffff !important;
+}
+.navBackground{
+     -webkit-transition: background-color 400ms linear;
+     -moz-transition: background-color 400ms linear;
+     -o-transition: background-color 400ms linear;
+     transition: background-color 400ms linear;
+     background-color: rgba(228, 76, 76, 0)!important;
+}
+@media screen and (max-width: 950px) {
+     .navBackground {
+     -webkit-transition: background-color 400ms linear;
+     -moz-transition: background-color 400ms linear;
+     -o-transition: background-color 400ms linear;
+     transition: background-color 400ms linear;
+     background-color: rgba(0, 0, 0, 0.5) !important;
+     }
+}
+
+.navBackgroundScroll{
+     -webkit-transition: background-color 400ms linear;
+     -moz-transition: background-color 400ms linear;
+     -o-transition: background-color 400ms linear;
+     transition: background-color 400ms linear;
+     background-color: #051b35;
+}
+
+
+.navItem{
+     text-decoration: none !important;
+     font-family: 'Montserrat',sans-serif;
+     color: #ffffff ;
+     font-weight: 700;
+     font-size: 16px;
+}
+.navItemScroll{
+     text-decoration: none !important;
+     font-family: 'Montserrat',sans-serif;
+     color: #ffffff !important;
+     font-weight: 700;
+     font-size: 16px;
+}
