@@ -15,7 +15,7 @@ const CourseDetails = () => {
         <Row>
           <Col lg={8} md={6} sm={12}>
             <h1>Course Details</h1>
-            <img src={c1} alt="Course Details" />
+            <img className='courseDetails' src={c1} alt="Course Details" />
             <p>
               Install the software and libraries required for programming
               <br />

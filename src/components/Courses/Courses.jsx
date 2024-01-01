@@ -3,6 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import '../Courses/Courses.css';
 import '../../asset/css/Bootstrap.min.css';
 import c1 from '../../asset/image/course.jpg';
+import c2 from '../../asset/image/course2.jpg';
+import c3 from '../../asset/image/course3.jpg';
+import c4 from '../../asset/image/course4.jpg';
 import { Link } from 'react-router-dom';
 
 const Courses = () => {
@@ -30,7 +33,7 @@ const Courses = () => {
           <Col lg={6} md={6} sm={12}>
             <Row>
               <Col lg={6} md={6} sm={12}>
-                <img className="courseImg" src={c1} />
+                <img className="courseImg" src={c2} />
               </Col>
               <Col lg={6} md={6} sm={12}>
                 <h4 className="text-justify serviceName">Medical Clinic</h4>
@@ -47,7 +50,7 @@ const Courses = () => {
           <Col lg={6} md={6} sm={12} className="p-2">
             <Row>
               <Col lg={6} md={6} sm={12}>
-                <img className="courseImg" src={c1} />
+                <img className="courseImg" src={c3} />
               </Col>
               <Col lg={6} md={6} sm={12}>
                 <h4 className="text-justify serviceName">Medical Clinic</h4>
@@ -62,7 +65,7 @@ const Courses = () => {
           <Col lg={6} md={6} sm={12}>
             <Row>
               <Col lg={6} md={6} sm={12}>
-                <img className="courseImg" src={c1} />
+                <img className="courseImg" src={c4} />
               </Col>
               <Col lg={6} md={6} sm={12}>
                 <h4 className="text-justify serviceName">Medical Clinic</h4>

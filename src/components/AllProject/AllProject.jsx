@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import P1 from '../../asset/image/clinic.jpg';
+import P1 from '../../asset/image/project.jpg';
+import P2 from '../../asset/image/project2.jpg';
+import P3 from '../../asset/image/project3.jpg';
 import { Link } from 'react-router-dom';
 
 export default function AllProject() {
@@ -28,7 +30,7 @@ export default function AllProject() {
 
             <Col lg={4} md={6} sm={12}>
                 <Card className="projectCard">
-                    <Card.Img variant="top" src={P1} />
+                    <Card.Img variant="top" src={P2} />
                     <Card.Body>
                         <Card.Title className="projectName">Card Title</Card.Title>
                         <Card.Text className="projectDescription">
@@ -44,7 +46,7 @@ export default function AllProject() {
 
             <Col lg={4} md={6} sm={12}>
                 <Card className="projectCard">
-                    <Card.Img variant="top" src={P1} />
+                    <Card.Img variant="top" src={P3} />
                     <Card.Body>
                         <Card.Title className="projectName">Card Title</Card.Title>
                         <Card.Text className="projectDescription">

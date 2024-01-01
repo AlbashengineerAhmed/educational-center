@@ -42,10 +42,9 @@ const Footer = () => {
             <h4 className="footerName text-center">Address</h4>
 
             <p className="footerDescription">
-              <FontAwesomeIcon icon={faMap} /> KONYA, SELÇUKLU,FERİTPAŞA
-              MAH,MÜFTÜ LOKMAN HEKİM SK.<br></br>
-              <FontAwesomeIcon icon={faEnvelope} /> CTP1@gmail.com <br></br>
-              <FontAwesomeIcon icon={faPhone} /> Phone : +90 555 016 7003
+              <FontAwesomeIcon icon={faMap} /> Kafr Bani Ali, Samasta Center ,Beni Suef, Cairo, Egypt<br></br>
+              <FontAwesomeIcon icon={faEnvelope} /> ahmed30920012@gmail.com <br></br>
+              <FontAwesomeIcon icon={faPhone} /> Phone : +20 100 948 0722
             </p>
           </Col>
 

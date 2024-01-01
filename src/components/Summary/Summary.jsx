@@ -26,15 +26,19 @@ const Summary = () => {
                     </p>
                     <p className="CardSubTitle text-justify">
                       <FontAwesomeIcon icon={faCheckSquare} className="SmallIcon" />
-                      Requirment Gathering
+                      Design and Planning
                     </p>
                     <p className="CardSubTitle text-justify">
                       <FontAwesomeIcon icon={faCheckSquare} className="SmallIcon" />
-                      Requirment Gathering
+                      Implementation
                     </p>
                     <p className="CardSubTitle text-justify">
                       <FontAwesomeIcon icon={faCheckSquare} className="SmallIcon" />
-                      Requirment Gathering
+                      Testing and QA
+                    </p>
+                    <p className="CardSubTitle text-justify">
+                      <FontAwesomeIcon icon={faCheckSquare} className="SmallIcon" />
+                      Deployment
                     </p>
                   </Card.Text>
                 </Card.Body>

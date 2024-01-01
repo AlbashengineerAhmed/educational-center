@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SerImg from '../../asset/image/Services.jpg';
+import SerImg from '../../asset/image/service1.jpg';
+import SerImg2 from '../../asset/image/service2.jpg';
+import SerImg3 from '../../asset/image/service3.jpg';
 import '../Services/Services.css';
 import '../../asset/css/Bootstrap.min.css';
 
@@ -22,7 +24,7 @@ const Services = () => {
           </Col>
           <Col lg={4} md={6} sm={12}>
             <div className="serviceCard text-center">
-              <img src={SerImg} className="ServicesIcon" alt="Service Icon" />
+              <img src={SerImg2} className="ServicesIcon" alt="Service Icon" />
               <h4 className="serviceName">OFFICE APPLICATIONS</h4>
               <p className="serviceDescription">
                 If you want to set up a software internal system for your company, we design and program it to suit your business development.
@@ -31,7 +33,7 @@ const Services = () => {
           </Col>
           <Col lg={4} md={6} sm={12}>
             <div className="serviceCard text-center">
-              <img src={SerImg} className="ServicesIcon" alt="Service Icon" />
+              <img src={SerImg3} className="ServicesIcon" alt="Service Icon" />
               <h4 className="serviceName">OFFICE APPLICATIONS</h4>
               <p className="serviceDescription">
                 If you want to set up a software internal system for your company, we design and program it to suit your business development.

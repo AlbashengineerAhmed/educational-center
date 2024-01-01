@@ -23,3 +23,13 @@
      background-color: #ecb3de;
      padding: 34px 23px 40px;
  }
+.courseDetails{
+     max-width: 400px;
+     max-height: 400px;
+}
+@media screen and (max-width:430px){
+     .courseDetails{
+          max-width: 250px;
+          max-height: 250px;
+     }
+}
